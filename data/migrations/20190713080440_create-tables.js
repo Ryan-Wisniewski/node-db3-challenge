@@ -14,7 +14,7 @@ exports.up = function(knex) {
         .notNullable();
       tbl.text('instructions')
         .notNullable();
-      tbl.integer('scheme_id')
+      tbl.integer('')
         .unsigned()
         .notNullable()
         .references('id')
